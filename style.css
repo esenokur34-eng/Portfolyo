@@ -1,0 +1,130 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #222;
+  }
+  
+  .logo {
+    color: #fff;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #00bcd4;
+  }
+  
+  /* Hero */
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+    color: #fff;
+  }
+  
+  .hero button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: #fff;
+    color: #2193b0;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .hero button:hover {
+    background: #00bcd4;
+    color: #fff;
+  }
+  
+  /* Bölümler */
+  section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  /* Projeler */
+  .projects {
+    background: #fff;
+  }
+  
+  .project-card {
+    background: #eee;
+    margin: 15px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* İletişim */
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .contact input, .contact textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact button {
+    background: #2193b0;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .contact button:hover {
+    background: #00bcd4;
+  }
+  
+  /* Footer */
+  footer {
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
