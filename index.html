@@ -7,61 +7,23 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Üst Menü -->
   <header>
     <nav class="navbar">
       <h1 class="logo">Eylül Portfolyo</h1>
       <ul class="nav-links">
-        <li><a href="#about">Hakkımda</a></li>
-        <li><a href="#projects">Projelerim</a></li>
-        <li><a href="#contact">İletişim</a></li>
+        <li><a href="#" onclick="openPage('about.html')">Hakkımda</a></li>
+        <li><a href="#" onclick="openPage('projects.html')">Projelerim</a></li>
+        <li><a href="#" onclick="openPage('contact.html')">İletişim</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Ana Sayfa -->
   <section class="hero">
     <h2>Merhaba, Ben Eylül Okur</h2>
-    <p>Öğrenciyim ve şuan staj görüyorum</p>
-    <button onclick="scrollToSection('projects')">Projelerim</button>
+    <p>Bilgisayar Programcılığı 2. sınıf öğrencisiyim.💻</p>
+        <img src="images/ben.jpg" alt="Eylül Okur" class="hero-img">
   </section>
-
-  <!-- Hakkımda -->
-  <section id="about" class="about">
-    <h2>Hakkımda</h2>
-    <p>Beykoz Üniversitesi Bilgisayar Programcılığı bölümünde 2. sınıf öğrencisiyim.</p>
-  </section>
-
-  <!-- Projeler -->
-  <section id="projects" class="projects">
-    <h2>Projelerim</h2>
-    <div class="project-card">
-      <h3>Kişisel Portfolyo</h3>
-      <p>HTML, CSS ve JavaScript kullanarak yaptığım portfolyo sitesi.</p>
-    </div>
-    <div class="project-card">
-      <h3>Evcil Hayvan Bakım ve Takip Sistemi</h3>
-      <p>Evcil hayvanlarımızın aşısını, muayene tarihini vs. kontrol edebildiğimiz uygulama.</p>
-    </div>
-    <div class="project-card">
-        <h3>C#</h3>
-        <p>C# dilinde temel düzeyde konu anlatım videosu.</p>
-      </div>
-    
-  </section>
-
-  <!-- İletişim -->
-  <section id="contact" class="contact">
-    <h2>İletişim</h2>
-    <form onsubmit="sendMessage(event)">
-      <input type="text" placeholder="Adınız" required>
-      <input type="email" placeholder="E-posta" required>
-      <textarea placeholder="Mesajınız" required></textarea>
-      <button type="submit">Gönder</button>
-    </form>
-  </section>
-
-  <!-- Footer -->
+<BR><BR><BR><BR><BR><BR><BR>
   <footer>
     <p>© 2025 Eylül. Tüm Hakları Saklıdır.</p>
   </footer>
